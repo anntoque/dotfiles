@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/Yasutaka/box/gardening/.vagrant'
+let g:netrw_dirhist_2='/Users/Yasutaka'
+let g:netrw_dirhist_3='/Users'
