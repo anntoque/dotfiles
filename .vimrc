@@ -6,7 +6,15 @@ endif
 call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'w0ng/vim-hybrid'
+call neobundle#end()
 filetype plugin indent on
+
+colorscheme hybrid
+set background=dark
+syntax on
 
 " 設定
 set number
