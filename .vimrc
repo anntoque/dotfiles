@@ -12,9 +12,10 @@ NeoBundle 'w0ng/vim-hybrid'
 call neobundle#end()
 filetype plugin indent on
 
-colorscheme hybrid
+colorscheme solarized
 set background=dark
 syntax on
+let g:solarized_termcolors=256
 
 " 設定
 set number
